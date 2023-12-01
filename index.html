@@ -6,72 +6,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Invasion of Nasa - Rocket Productions</title>
-
 </head>
+
 <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-            color: #333;
-        }
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        color: #333;
+    }
 
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-        }
+    header {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+    }
 
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    section {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
+    footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1em;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 
-        img {
-            max-width: 100%;
-            height: auto;
-        }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
 
-        .gallery {
-            display: flex;
-            overflow-x: auto;
-        }
+    .gallery {
+        display: flex;
+        overflow-x: auto;
+    }
 
-        .gallery img {
-            margin-right: 10px;
-        }
+    .gallery img {
+        margin-right: 10px;
+    }
 
-        .videos {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
+    .videos {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
-        .videos iframe {
-            width: 48%;
-            margin-bottom: 10px;
-        }
-    </style>
+    .videos iframe {
+        width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .logo-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        max-width: 100px;
+        height: auto;
+    }
+</style>
+
 <body>
 
     <header>
-        <img src="logo.jpg" alt="Rocket Productions Logo" class="logo">
         <h1>Invasion of Nasa</h1>
         <p>Data de estreia 15/12/2023</p>
     </header>
@@ -80,12 +91,10 @@
         <h2>Descrição do Jogo</h2>
         <p>
             Bem-vindo(a) ao emocionante mundo de "Invasion of Nasa". Prepare-se para uma experiência única, repleta
-            de aventuras
-            intergalácticas, desafios emocionantes e gráficos incríveis. Esteja pronto para explorar novos mundos e
-            enfrentar
-            invasores alienígenas enquanto defende a NASA!
+            de aventuras intergalácticas, desafios emocionantes e gráficos incríveis. Esteja pronto para explorar novos
+            mundos e enfrentar invasores alienígenas enquanto defende a NASA!
         </p>
-        
+
         <h2>Screenshots</h2>
         <div class="gallery">
             <img src="SUA_IMAGEM_1.jpg" alt="Screenshot 1">
@@ -96,11 +105,17 @@
     </section>
 
     <section>
-        <h2>Siga-nos no Instagram</h2>
-        <p>Conheça mais sobre a Rocket Productions: <a href="https://www.instagram.com/rocketcreators" target="_blank">@rocketcreators</a></p>
-  
-        <h2>Slogan da Rocket Productions</h2>
-        <p>"Elevando o Entretenimento a Novas Alturas!"</p>
+        <div class="logo-section">
+            <div>
+                <h2>Siga-nos no Instagram</h2>
+                <p>Conheça mais sobre a Rocket Productions: <a href="https://www.instagram.com/rocketcreators"
+                        target="_blank">@rocketcreators</a></p>
+
+                <h2>Slogan da Rocket Productions</h2>
+                <p>"Elevando o Entretenimento a Novas Alturas!"</p>
+            </div>
+            <img class="logo" src="logo.jpg" alt="Logo Rocket Productions">
+        </div>
     </section>
 
     <section>
