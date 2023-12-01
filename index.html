@@ -45,6 +45,26 @@
             max-width: 100%;
             height: auto;
         }
+
+        .gallery {
+            display: flex;
+            overflow-x: auto;
+        }
+
+        .gallery img {
+            margin-right: 10px;
+        }
+
+        .videos {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .videos iframe {
+            width: 48%;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
@@ -66,7 +86,12 @@
         </p>
         
         <h2>Screenshots</h2>
-        <img src="SUA_IMAGEM.jpg" alt="Screenshot do Jogo">
+        <div class="gallery">
+            <img src="SUA_IMAGEM_1.jpg" alt="Screenshot 1">
+            <img src="SUA_IMAGEM_2.jpg" alt="Screenshot 2">
+            <img src="SUA_IMAGEM_3.jpg" alt="Screenshot 3">
+            <img src="SUA_IMAGEM_4.jpg" alt="Screenshot 4">
+        </div>
     </section>
 
     <section>
@@ -77,19 +102,18 @@
         <p>"Elevando o Entretenimento a Novas Alturas!"</p>
     </section>
 
+    <section>
+        <h2>Assista aos Teasers</h2>
+        <div class="videos">
+            <iframe width="48%" height="315" src="URL_DO_SEU_VIDEO_DE_GAMEPLAY" frameborder="0" allowfullscreen></iframe>
+            <iframe width="48%" height="315" src="URL_DO_SEU_TEASER" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </section>
+
     <footer>
         <p>&copy; 2023 Rocket Productions. All rights reserved.</p>
     </footer>
 
-    <section>
-        <h2>Assista aos Teasers</h2>
-        <iframe width="560" height="315" src="URL_DO_SEU_VIDEO_DE_GAMEPLAY" frameborder="0" allowfullscreen></iframe>
-        <iframe width="560" height="315" src="URL_DO_SEU_TEASER" frameborder="0" allowfullscreen></iframe>
-    </section>
-
-   
-
-    
 </body>
 
 </html>
