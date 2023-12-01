@@ -2,12 +2,12 @@ body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #1D0E37;
+    color: #EF8EC8;
 }
 
 header {
-    background-color: #333;
+    background-color: #7444C7;
     color: white;
     text-align: center;
     padding: 1em;
@@ -17,13 +17,13 @@ section {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: white;
+    background-color: #822797;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #333;
+    background-color: #7444C7;
     color: white;
     text-align: center;
     padding: 1em;
