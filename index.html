@@ -78,6 +78,25 @@
         max-width: 100px;
         height: auto;
     }
+     /* Adicionando regras de mídia para dispositivos móveis */
+     @media only screen and (max-width: 600px) {
+        .gallery {
+            flex-direction: column;
+        }
+
+        .gallery img {
+            margin-right: 0;
+            margin-bottom: 10px;
+        }
+
+        .videos iframe {
+            width: 100%;
+        }
+
+        .logo-section {
+            flex-direction: column;
+        }
+    }
 </style>
 
 <body>
