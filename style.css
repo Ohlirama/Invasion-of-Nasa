@@ -52,12 +52,7 @@ img {
     flex-wrap: wrap;
 }
 
-.video-container {
-    width: 48%; /* Ajuste o tamanho conforme necessário */
-    box-sizing: border-box;
-    margin-bottom: 10px;
-}
-
 .videos iframe {
-    width: 100%;
+    width: 48%;
+    margin-bottom: 10px;
 }
