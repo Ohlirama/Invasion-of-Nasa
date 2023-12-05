@@ -84,12 +84,13 @@
 
     .videos {
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
+        flex-direction: column; /* Alteração para empilhar os vídeos */
+        align-items: center; /* Centralizar os vídeos */
     }
 
     .videos iframe {
-        width: 48%;
+        width: 100%; /* Tamanho original do vídeo */
+        height: auto;
         margin-bottom: 10px;
     }
 
@@ -160,20 +161,14 @@
     <section>
         <h2>Assista aos Teasers</h2>
         <div class="videos">
-            <div class="video-container">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/LAD2WS6Vx20?si=qDtSHjl6CCbpxHF4"
-                    frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="video-container">
-                <iframe width="100%" height="315" src="https://www.youtube.com/embed/5yftDNMYEUI" frameborder="0"
-                    allowfullscreen></iframe>
-            </div>
+            <iframe src="https://www.youtube.com/embed/LAD2WS6Vx20?si=qDtSHjl6CCbpxHF4" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/5yftDNMYEUI" frameborder="0" allowfullscreen></iframe>
         </div>
     </section>
 
-    <h3>
-        <p>&copy; 2023 Rocket Productions. All rights reserved.</p>
-    </h3>
+    <h2>
+        <p>&copy;Rocket Productions</p>
+    </h2>
 
     <script>
         var currentSlide = 0;
